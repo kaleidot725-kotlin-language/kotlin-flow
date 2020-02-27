@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b02981-dd8f-4410-bd66-c61829a0ae92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a04_flowbuilder/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a04_flowbuilder/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/kotlin-flow-practice.main.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/META-INF/kotlin-flow-practice.main.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -85,13 +84,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/a04_flowbuilder/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="1" />
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
               <folding>
                 <element signature="e#25#139#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="92">
+                <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/Main.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" selection-start-line="10" selection-end-line="14" />
+              <folding>
+                <element signature="e#39#188#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,6 +183,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/a03_flowcancelation/README.md" />
         <option value="$PROJECT_DIR$/src/main/kotlin/a04_flowbuilder/README.md" />
         <option value="$PROJECT_DIR$/src/main/kotlin/a04_flowbuilder/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/README.md" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/Main.kt" />
       </list>
     </option>
   </component>
@@ -206,7 +231,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="a03_flowcancellation" type="462c0819:PsiDirectoryNode" />
+              <item name="a04_flowbuilder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kotlin-flow-practice" type="b2602c69:ProjectViewProjectNode" />
@@ -214,7 +239,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="kotlin" type="462c0819:PsiDirectoryNode" />
-              <item name="a04_flowbuilder" type="462c0819:PsiDirectoryNode" />
+              <item name="a05_intermediateflowoperators" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -225,7 +250,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582803983628" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582804622203" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -249,20 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.a04_flowbuilder.MainKt">
-    <configuration name="MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="kotlin-flow-practice.main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Kotlin.a05_intermediateflowoperators.MainKt">
     <configuration name="a01_flows.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="kotlin-flow-practice.main" />
       <option name="VM_PARAMETERS" />
@@ -315,13 +327,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="a05_intermediateflowoperators.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="kotlin-flow-practice.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="a05_intermediateflowoperators.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.a05_intermediateflowoperators.MainKt" />
         <item itemvalue="Kotlin.a04_flowbuilder.MainKt" />
         <item itemvalue="Kotlin.a03_flowcancellation.MainKt" />
         <item itemvalue="Kotlin.a02_flowarecold.MainKt" />
         <item itemvalue="Kotlin.a01_flows.MainKt" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -451,9 +476,29 @@
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/a04_flowbuilder/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
-          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="1" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#25#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" selection-start-line="10" selection-end-line="14" />
+          <folding>
+            <element signature="e#39#188#0" expanded="true" />
           </folding>
         </state>
       </provider>
