@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54b02981-dd8f-4410-bd66-c61829a0ae92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/a04_flowbuilder/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/a04_flowbuilder/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -100,8 +100,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+              <first_editor relative-caret-position="228">
+                <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,10 +111,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" selection-start-line="10" selection-end-line="14" />
+            <state relative-caret-position="161">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding>
-                <element signature="e#39#188#0" expanded="true" />
+                <element signature="e#39#109#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,8 +124,8 @@
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/a04_flowbuilder/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="92">
-                <caret line="4" selection-start-line="4" selection-end-line="4" />
+              <first_editor relative-caret-position="69">
+                <caret line="3" selection-start-line="3" selection-end-line="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -181,8 +181,8 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/a02_flowarecold/README.md" />
         <option value="$PROJECT_DIR$/src/main/kotlin/a03_flowcancelation/Main.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/a03_flowcancelation/README.md" />
-        <option value="$PROJECT_DIR$/src/main/kotlin/a04_flowbuilder/README.md" />
         <option value="$PROJECT_DIR$/src/main/kotlin/a04_flowbuilder/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/a04_flowbuilder/README.md" />
         <option value="$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/README.md" />
         <option value="$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/Main.kt" />
       </list>
@@ -250,7 +250,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582804622203" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582805523377" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -367,7 +367,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15808298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15808298" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -376,7 +376,7 @@
       <window_info id="UI Designer" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26289925" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.44471744" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32555282" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -386,7 +386,7 @@
       <window_info anchor="bottom" id="Build" order="9" weight="0.32965517" />
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Flutter Performance" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32923833" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -453,16 +453,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/a04_flowbuilder/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/a03_flowcancellation/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -483,11 +473,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/a04_flowbuilder/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="69">
+            <caret line="3" selection-start-line="3" selection-end-line="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="92">
-            <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+          <first_editor relative-caret-position="228">
+            <caret line="10" column="13" lean-forward="true" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
@@ -495,10 +495,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/a05_intermediateflowoperators/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" selection-start-line="10" selection-end-line="14" />
+        <state relative-caret-position="161">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding>
-            <element signature="e#39#188#0" expanded="true" />
+            <element signature="e#39#109#0" expanded="true" />
           </folding>
         </state>
       </provider>
