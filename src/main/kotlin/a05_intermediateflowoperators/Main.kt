@@ -4,7 +4,6 @@ import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.runBlocking
 
 
-
 fun main() = runBlocking {
 
     // Map を利用した例
