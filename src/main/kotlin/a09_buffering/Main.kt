@@ -1,10 +1,7 @@
 package a09_buffering
 
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.buffer
-import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.flow.flow
+import kotlinx.coroutines.flow.*
 import kotlinx.coroutines.runBlocking
 import kotlin.system.measureTimeMillis
 
@@ -32,4 +29,24 @@ fun main() = runBlocking {
         }
     }
     println("Buffer Collected in $time ms")
+
+    time = measureTimeMillis {
+        foo()
+            .conflate() // conflate emissions, don't process each one
+            .collect { value ->
+                delay(300) // pretend we are processing it for 300 ms
+                println("conflate $value")
+            }
+    }
+    println("Conflate Collected in $time ms")
+
+    time = measureTimeMillis {
+        foo()
+            .collectLatest { value -> // cancel & restart on the latest value
+                println("Collecting $value")
+                delay(300) // pretend we are processing it for 300 ms
+                println("Done $value")
+            }
+    }
+    println("CollectLatest Collected in $time ms")
 }
