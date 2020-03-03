@@ -19,17 +19,35 @@ fun foo2(): Flow<Int> = flow {
 }
 
 fun main() = runBlocking<Unit> {
+    println("==================")
     foo()
         .catch { e ->
             println(e)
             emit(10000)
         }
         .collect { value -> println(value) }
+    println("==================")
 
+    println("==================")
+    try {
+        foo2()
+            .catch { e -> println("Caught $e") } // does not catch downstream exceptions
+            .collect { value ->
+                check(value <= 1) { "Collected $value" }
+                println(value)
+            }
+    } catch (e: Exception) {
+        println(e)
+    }
+    println("==================")
+
+    println("==================")
     foo2()
-        .catch { e -> println("Caught $e") } // does not catch downstream exceptions
-        .collect { value ->
+        .onEach { value ->
             check(value <= 1) { "Collected $value" }
             println(value)
         }
+        .catch { e -> println("Caught $e") }
+        .collect()
+    println("==================")
 }

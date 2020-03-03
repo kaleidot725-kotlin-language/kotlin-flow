@@ -7,3 +7,7 @@
 
 - Catch オペレータは上位の Flow の例外のみをキャッチする
 
+## Catching declaratively
+
+- onEach にて check し、 catch で例外をキャッチすることもできる。
+
