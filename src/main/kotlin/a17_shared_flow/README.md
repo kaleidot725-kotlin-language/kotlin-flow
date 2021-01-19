@@ -4,13 +4,12 @@
 - すべてのコレクターは放出されたすべての値を取得できる。
 - SharedFlow はホットなストリームであるのでアクティブなコレクターがなくても動作する
 
-- 共有フローが完了することはない、共有フローで Flow.collect の呼び出しは正常に管理せず、
+- SharedFlowが完了することはない、Sharedで Flow.collect の呼び出しは正常に管理せず、
   Flow.launchIn 関数によって開始されたコルーチンも完了しません。 
-- 共有フローのアクティブなコレクターはサブスクライバーと呼ばれます。
+- SharedFlowのアクティブなコレクターはサブスクライバーと呼ばれます。
   
 - そのスコープで動作しているコルーチンがキャンセルされたときにSharedFlowのサブスクライバーはキャンセルされる。
 - SharedFlowのサブスクライバーは常にキャンセル可能です。
-
 - SharedFlow はアプリケーションの内部で行き来するイベントをブロードキャストするのに役立つ
 
 # Replay cache and buffer
@@ -27,5 +26,3 @@
 # SharedFlow vs BroadcastChannel
 
 - SharedFlow は BroadcastChannel の代替として使える
-
-#
