@@ -6,23 +6,8 @@ import kotlinx.coroutines.flow.*
 import java.util.*
 
 fun main() = runBlocking<Unit> {
-//    println("start")
-//    defaultTest()
-
-    println("start: emitCount 10 bufferOption BufferOverflow.SUSPEND")
-    bufferTest(10, replayCount = 0, extraBufferCapacity = 10, bufferOverflow = BufferOverflow.SUSPEND)
-
-//    println("start: emitCount 10 replayCount 0")
-//    replayTest(emitCount = 10, replayCount = 0)
-//
-//    println("start: emitCount 10 replayCount 1")
-//    replayTest(emitCount = 10, replayCount = 1)
-//
-//    println("start: emitCount 10 replayCount 5")
-//    replayTest(emitCount = 10, replayCount = 5)
-//
-//    println("start: emitCount 10 replayCount 10")
-//    replayTest(emitCount = 10, replayCount = 10)
+    defaultTest()
+    bufferTest(emitCount = 10, replayCount = 0, extraBufferCapacity = 5, bufferOverflow = BufferOverflow.DROP_OLDEST)
 }
 
 /**
