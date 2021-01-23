@@ -10,13 +10,7 @@ fun main() = runBlocking<Unit> {
 //    defaultTest()
 
     println("start: emitCount 10 bufferOption BufferOverflow.SUSPEND")
-    bufferTest(10, replayCount = 1, BufferOverflow.SUSPEND)
-
-    println("start: emitCount 10 bufferOption BufferOverflow.DROP_LATEST")
-    bufferTest(10, replayCount = 5, BufferOverflow.DROP_LATEST)
-
-    println("start: emitCount 10 bufferOption BufferOverflow.DROP_OLDEST")
-    bufferTest(10, replayCount = 5, BufferOverflow.DROP_OLDEST)
+    bufferTest(10, replayCount = 0, extraBufferCapacity = 10, bufferOverflow = BufferOverflow.SUSPEND)
 
 //    println("start: emitCount 10 replayCount 0")
 //    replayTest(emitCount = 10, replayCount = 0)
@@ -84,9 +78,9 @@ fun replayTest(emitCount: Int, replayCount: Int){
  * emitCount: エミットする値の数
  * replayCount: リプライする値の数
  */
-fun bufferTest(emitCount: Int, replayCount: Int, bufferOverflow: BufferOverflow) {
+fun bufferTest(emitCount: Int, replayCount: Int, bufferOverflow: BufferOverflow, extraBufferCapacity: Int) {
     runBlocking {
-        val mutableSharedFlow = MutableSharedFlow<Int>(replay = replayCount, onBufferOverflow = bufferOverflow)
+        val mutableSharedFlow = MutableSharedFlow<Int>(replay = replayCount, extraBufferCapacity = extraBufferCapacity, onBufferOverflow = bufferOverflow)
 
         mutableSharedFlow.onEach {
             delay(100)
@@ -100,13 +94,12 @@ fun bufferTest(emitCount: Int, replayCount: Int, bufferOverflow: BufferOverflow)
         delay(1000)
 
         for (i in 1..emitCount) {
-            println("emit: value ${i}")x
+            println("emit: value ${i}")
             mutableSharedFlow.emit(i)
-            println("emitted: value ${i}")
         }
 
         // 値のコレクトが完了するまで待つ
-        delay(1000)
+        delay(2000)
     }
 }
 
