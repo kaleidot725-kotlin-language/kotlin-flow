@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b02981-dd8f-4410-bd66-c61829a0ae92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a18_state_flow/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a18_state_flow/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/a18_state_flow/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/a18_state_flow/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,7 +251,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="a17_shared_flow.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="a18_state_flow.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -312,6 +311,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainKt" />
         <item itemvalue="Application.MainKt" />
         <item itemvalue="Application.a16_launchingnow.MainKt" />
         <item itemvalue="Application.MainKt" />
