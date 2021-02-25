@@ -1,7 +1,5 @@
 package a19_callback_flow.model
 
-
-
 class Counter {
     private val listeners: MutableList<OnChangedListener> = mutableListOf()
     var count = 0

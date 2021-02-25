@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b02981-dd8f-4410-bd66-c61829a0ae92" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a19_callback_flow/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a19_callback_flow/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a19_callback_flow/model/Counter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a19_callback_flow/model/OnChangedListener.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/a19_callback_flow/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/a19_callback_flow/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/a19_callback_flow/model/Counter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/a19_callback_flow/model/Counter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,7 +394,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/main/kotlin/a19_callback_flow/Main.kt</url>
-          <line>47</line>
+          <line>49</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>

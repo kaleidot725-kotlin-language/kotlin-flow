@@ -8,7 +8,7 @@ import kotlinx.coroutines.channels.awaitClose
 import kotlinx.coroutines.flow.*
 
 fun main() = runBlocking<Unit> {
-    callbackFlowSample()
+    generalCallbackSample()
 }
 
 private fun generalCallbackSample() {
@@ -22,6 +22,7 @@ private fun generalCallbackSample() {
     counter.addOnChangedListener(listener)
     repeat(10) { counter.increment() }
     repeat(10) { counter.decrement() }
+    counter.removeOnChangedListener(listener)
 }
 
 private suspend fun callbackFlowSample() {
@@ -45,6 +46,7 @@ private fun createCallbackFlow(counter: Counter): Flow<Int> = callbackFlow {
             offer(count)
         }
     }
+
     counter.addOnChangedListener(listener)
     awaitClose { counter.removeOnChangedListener(listener) }
 }
