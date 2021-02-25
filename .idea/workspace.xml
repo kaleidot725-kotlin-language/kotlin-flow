@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54b02981-dd8f-4410-bd66-c61829a0ae92" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a19_callback_flow/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a19_callback_flow/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a19_callback_flow/model/Counter.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/a19_callback_flow/model/OnChangedListener.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/a17_shared_flow/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/a17_shared_flow/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/a18_state_flow/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/a18_state_flow/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +234,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583404323474" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/kotlin/a19_callback_flow" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.42206234" />
@@ -241,8 +242,14 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\81906\Documents\Github\kotlin_flow\src\main\kotlin\a19_callback_flow" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/flows" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="a19_callback_flow.model" />
     </key>
   </component>
   <component name="RunManager" selected="Application.MainKt">
@@ -253,7 +260,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="a18_state_flow.MainKt" />
+      <option name="MAIN_CLASS_NAME" value="a19_callback_flow.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -313,6 +320,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainKt" />
         <item itemvalue="Application.MainKt" />
         <item itemvalue="Application.MainKt" />
         <item itemvalue="Application.a16_launchingnow.MainKt" />
@@ -382,6 +390,17 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/a19_callback_flow/Main.kt</url>
+          <line>47</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
