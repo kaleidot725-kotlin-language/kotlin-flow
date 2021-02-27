@@ -17,10 +17,12 @@ class Counter {
     }
 
     fun addOnChangedListener(listener: OnChangedListener) {
+        println("addOnChangedListener")
         listeners.add(listener)
     }
 
     fun removeOnChangedListener(listener: OnChangedListener){
+        println("removeOnChangedListener")
         listeners.remove(listener)
     }
 
